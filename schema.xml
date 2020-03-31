@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<schema>
+
+<object name="gallery_picture" description="Gallery picture[ru=Картинка фотогалереи]" fixed="1" handler="" plugin="">
+    <field name="tag" type="3" pseudo_type="0" description="Sort[ru=Сортировка]" length="1" show="1" required="0" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="name" type="1" pseudo_type="0" description="Title[ru=Заголовок]" length="99" show="0" required="0" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="alias" type="1" pseudo_type="0" description="Alias" length="255" show="0" required="1" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="dat" type="5" pseudo_type="0" description="Date create[ru=Дата создания]" length="1" show="0" required="1" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="dat_update" type="5" pseudo_type="0" description="Edit date[ru=Дата изменения]" length="1" show="0" required="1" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="autor" type="3" pseudo_type="0" description="Author[ru=Автор]" length="1" show="0" required="1" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="type" type="3" pseudo_type="0" description="Properties[ru=Свойства]" length="1" show="0" required="1" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="idcat" type="3" pseudo_type="0" description="Section[ru=Раздел]" length="1" show="0" required="1" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="file" type="4" pseudo_type="0" description="Picture[ru=Картинка]" length="1" show="1" required="0" fixed="1" editor="32" editor_user="" default_value="" />
+</object>
+
+<object name="gallery" description="Photogallery[ru=Фотогалерея]" fixed="1" handler="" plugin="">
+    <field name="tag" type="3" pseudo_type="0" description="Sort[ru=Сортировка]" length="1" show="1" required="0" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="name" type="1" pseudo_type="0" description="Title[ru=Заголовок]" length="99" show="1" required="0" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="alias" type="1" pseudo_type="0" description="Alias" length="255" show="0" required="1" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="dat" type="5" pseudo_type="0" description="Date create[ru=Дата создания]" length="1" show="0" required="1" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="dat_update" type="5" pseudo_type="0" description="Edit date[ru=Дата изменения]" length="1" show="0" required="1" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="autor" type="3" pseudo_type="0" description="Author[ru=Автор]" length="1" show="0" required="1" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="type" type="3" pseudo_type="0" description="Properties[ru=Свойства]" length="1" show="0" required="1" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="idcat" type="3" pseudo_type="0" description="Section[ru=Раздел]" length="1" show="0" required="1" fixed="1" editor="0" editor_user="" default_value="" />
+    <field name="pictures" type="8" pseudo_type="1100" description="Pictures[ru=Изображения]" length="gallery_picture" show="1" required="0" fixed="1" editor="100" editor_user="" default_value="" />
+</object>
+
+</schema>

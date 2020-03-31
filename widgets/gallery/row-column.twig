@@ -1,0 +1,17 @@
+{# верстка foundation row-column #}
+<div class="{{ widget.getParam('css_class') }}">
+	
+	{{ widget.widgetTitle|raw }}
+		  
+    <div class="row small-up-1 medium-up-3 large-up-3">
+		  {% for m in widget.children %}
+			<div class="column">
+				<a data-open="{{ widget.uniqueId }}-pic-{{ m.id }}"><img class="thumbnail" src="{{ m.file }}"></a>
+			</div>
+			<div class="reveal text-center" id="{{ widget.uniqueId }}-pic-{{ m.id }}" data-reveal>
+				<img src="{{ m.file }}">
+			</div>
+		  {% endfor %}
+	</div>
+		  
+</div>

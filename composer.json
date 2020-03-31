@@ -1,0 +1,27 @@
+{
+    "name": "cetera-labs/plugin-gallery",
+    "description": "Cetera CMS Gallery Plugin",
+    "type": "cetera-cms-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Romanov",
+            "email": "nicodim@mail.ru",
+            "role": "Lead Developer"
+        }
+    ]
+    
+    "minimum-stability": "dev",
+    
+    "autoload": {
+        "psr-0": { 
+			"Gallery\\": "classes/"
+		}
+    },
+
+    "extra": {
+        "name": "gallery",
+        "title": "Возможность создавать фотогалереи",
+        "description": ""
+    }
+}

@@ -1,0 +1,21 @@
+{# верстка foundation xy-grid block-grids #}
+<div class="{{ widget.getParam('css_class') }}">
+	
+	{{ widget.widgetTitle|raw }}
+	
+	<div class="grid-x grid-padding-x small-up-2 medium-up-4 large-up-6">
+		  {% for m in widget.children %}
+			<div class="cell">
+				<a data-open="{{ widget.uniqueId }}-pic-{{ m.id }}"><img class="thumbnail" src="{{ m.file }}"></a>
+			</div>
+		  {%
+		  endfor %}
+	</div>	
+	
+    {% for m in widget.children %}
+	<div class="reveal text-center" id="{{ widget.uniqueId }}-pic-{{ m.id }}" data-reveal>
+		<img src="{{ m.file }}">
+	</div>
+    {% endfor %}			  
+</div>
+

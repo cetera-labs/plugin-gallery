@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Модуль \"Торговля\"\n"
+"POT-Creation-Date: 2017-05-03 09:00+0300\n"
+"PO-Revision-Date: 2017-05-11 16:27+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;translate\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: \n"
+"Language: el\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ext/Field.js:11
+msgid "Загрузить из ZIP"
+msgstr "Κατεβάστε από ZIP"
+
+#: ext/Widget.js:12
+msgid "Галерея"
+msgstr "Στοά"
+
+#: action_unzip.php:16
+msgid "Ошибка при распаковке архива."
+msgstr "Σφάλμα κατά την αποσυμπίεση ενός αρχείου."
+
+#: config.php:12 config.php:36
+msgid "Фотогалерея"
+msgstr "Φωτογραφίες"
+
+#: config.php:19
+msgid "Редакторы фотогалерей"
+msgstr "Συντάκτες γκαλερί"
+
+#: config.php:29
+msgid "Редактор фотогалереи"
+msgstr "Γκαλερί πρόγραμμα επεξεργασίας φωτογραφιών"
+
+#: config.php:48
+msgid "Фотогалереи"
+msgstr "Φωτογραφίες"
