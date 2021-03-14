@@ -47,6 +47,7 @@ if ($this->getBo())
 				'position' => MENU_SITE,
 				'name' 	   => $t->_('Фотогалереи'),
 				'icon'     => '/cms/plugins/gallery/images/gallery.gif',
+                'iconCls'  => 'x-fa fa-images',
 				'class'    => 'Plugin.gallery.Panel'
 		));
 
