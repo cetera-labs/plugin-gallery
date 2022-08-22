@@ -1,6 +1,6 @@
 {
     "name": "cetera-labs/plugin-gallery",
-    "description": "Cetera CMS Gallery Plugin",
+    "description": "Fastsite CMS Gallery Plugin",
     "type": "cetera-cms-plugin",
     "license": "MIT",
     "authors": [
